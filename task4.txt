@@ -1,55 +1,0 @@
-Script started on 2020-07-28 10:33:50-04:00 [TERM="xterm-256color" TTY="/dev/tty4" COLUMNS="120" LINES="30"]
-]0;rivka@DESKTOP-03TC7OD: ~[01;32mrivka@DESKTOP-03TC7OD[00m:[01;34m~[00m$ pwd
-/home/rivka
-]0;rivka@DESKTOP-03TC7OD: ~[01;32mrivka@DESKTOP-03TC7OD[00m:[01;34m~[00m$ la[Ks[Ka
-' recordPart3.txt'   [0m[01;34m.landscape[0m    .sudo_as_admin_successful   myLog.txt       task3.txt
- .bash_history       .motd_shown   SaveSSHKey                  myRecord1.txt   task4.txt
- .bash_logout        .profile      SaveSSHKey.pub              myRecord3.txt   ttyrecord
- .bashrc             [01;34m.ssh[0m          linuxhintlog.txt            record3.txt     typescript
-]0;rivka@DESKTOP-03TC7OD: ~[01;32mrivka@DESKTOP-03TC7OD[00m:[01;34m~[00m$ ls
-' recordPart3.txt'   SaveSSHKey.pub     myLog.txt       myRecord3.txt   task3.txt   ttyrecord
- SaveSSHKey          linuxhintlog.txt   myRecord1.txt   record3.txt     task4.txt   typescript
-]0;rivka@DESKTOP-03TC7OD: ~[01;32mrivka@DESKTOP-03TC7OD[00m:[01;34m~[00m$ sudo apt-get install imagemagick
-[sudo] password for rivka: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
-imagemagick is already the newest version (8:6.9.10.23+dfsg-2.1ubuntu11).
-0 upgraded, 0 newly installed, 0 to remove and 99 not upgraded.
-]0;rivka@DESKTOP-03TC7OD: ~[01;32mrivka@DESKTOP-03TC7OD[00m:[01;34m~[00m$ ls -la
-total 304
--rw-rw-rw- 1 rivka rivka  6144 Jul 28 09:53 ' recordPart3.txt'
-drwxr-xr-x 1 rivka rivka   512 Jul 28 10:38  [0m[01;34m.[0m
-drwxr-xr-x 1 root  root    512 Jul 27 00:51  [01;34m..[0m
--rw------- 1 rivka rivka  2475 Jul 28 10:34  .bash_history
--rw-r--r-- 1 rivka rivka   220 Jul 27 00:51  .bash_logout
--rw-r--r-- 1 rivka rivka  3771 Jul 27 00:51  .bashrc
-drwxr-xr-x 1 rivka rivka   512 Jul 27 00:51  [01;34m.landscape[0m
--rw-rw-rw- 1 rivka rivka     0 Jul 28 00:37  .motd_shown
--rw-r--r-- 1 rivka rivka   807 Jul 27 00:51  .profile
-drwx------ 1 rivka rivka   512 Jul 27 01:28  [01;34m.ssh[0m
--rw-r--r-- 1 rivka rivka     0 Jul 27 00:55  .sudo_as_admin_successful
--rw-rw-rw- 1 rivka rivka     0 Jul 28 10:38  [01;35m1.png[0m
--rw------- 1 rivka rivka  2610 Jul 27 01:16  SaveSSHKey
--rw-r--r-- 1 rivka rivka   575 Jul 27 01:16  SaveSSHKey.pub
--rw-rw-rw- 1 rivka rivka  4608 Jul 27 01:19  linuxhintlog.txt
--rw-rw-rw- 1 rivka rivka  8704 Jul 27 01:31  myLog.txt
--rw-rw-rw- 1 rivka rivka  3072 Jul 27 23:55  myRecord1.txt
--rw-rw-rw- 1 rivka rivka 40160 Jul 28 01:37  myRecord3.txt
--rw-rw-rw- 1 rivka rivka  1384 Jul 28 00:44  record3.txt
--rw-rw-rw- 1 rivka rivka 78848 Jul 28 09:52  task3.txt
--rw-rw-rw- 1 rivka rivka  1536 Jul 28 10:34  task4.txt
--rw-rw-rw- 1 rivka rivka  7314 Jul 28 00:01  ttyrecord
--rw-rw-rw- 1 rivka rivka  3072 Jul 27 23:55  typescript
-]0;rivka@DESKTOP-03TC7OD: ~[01;32mrivka@DESKTOP-03TC7OD[00m:[01;34m~[00m$ convert -delay 20 -loop 0 1.png 2p[K.png 3.png 4.png myG[KImg.gif
-convert-im6.q16: improper image header `1.png' @ error/png.c/ReadPNGImage/4092.
-convert-im6.q16: unable to open image `2.png': No such file or directory @ error/blob.c/OpenBlob/2874.
-convert-im6.q16: unable to open image `3.png': No such file or directory @ error/blob.c/OpenBlob/2874.
-convert-im6.q16: unable to open image `3.png': No such file or directory @ error/blob.c/OpenBlob/2874.
-convert-im6.q16: unable to open image `4.png': No such file or directory @ error/blob.c/OpenBlob/2874.
-convert-im6.q16: unable to open image `4.png': No such file or directory @ error/blob.c/OpenBlob/2874.
-convert-im6.q16: no images defined `myImg.gif' @ error/convert.c/ConvertImageCommand/3258.
-]0;rivka@DESKTOP-03TC7OD: ~[01;32mrivka@DESKTOP-03TC7OD[00m:[01;34m~[00m$ exit
-exit
-
-Script done on 2020-07-28 10:43:07-04:00 [COMMAND_EXIT_CODE="1"]
